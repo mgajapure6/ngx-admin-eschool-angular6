@@ -29,43 +29,15 @@ export class MenuService{
               icon: 'nb-gear',
               children: [
                 {
-                  title: 'Organization Detail',
-                  link: '/pages/tables/smart-table',
-                },
-                {
-                  title: 'Branch Office Details',
-                  link: '/pages/tables/smart-table',
-                },
-                {
                   title: 'Masters',
                   children: [
                     {
-                      title: 'Authorization Info',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
                       title: 'Module Master',
-                      link: '/pages/tables/smart-table',
+                      link: '/pages/settings/master/module-master',
                     },
                     {
                       title: 'Menu Master',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'User Info',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'User Level Master',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'Code Master',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'Series Master',
-                      link: '/pages/tables/smart-table',
+                      link: '/pages/settings/master/menu-master',
                     },
                   ],
                 },
@@ -73,67 +45,10 @@ export class MenuService{
                   title: 'Transactions',
                   children: [
                     {
-                      title: 'Dynamic Report',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'Dynamic DB Master',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'User Rights',
-                      children: [
-                        {
-                          title: 'Dashboard Menu Rights',
-                          link: '/pages/tables/smart-table',
-                        },
-                        {
-                          title: 'User Financial Year Rights',
-                          link: '/pages/tables/smart-table',
-                        },
-                        {
-                          title: 'User Branch Module Rights',
-                          link: '/pages/tables/smart-table',
-                        },
-                        {
-                          title: 'User Menu Rights',
-                          link: '/pages/tables/smart-table',
-                        },
-                      ],
-                    },
-                    {
-                      title: 'User Subject Rights',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'Address Code Master',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'Area Village Master',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'Financial Year Master',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'Series Transaction',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'Parameter Master',
-                      link: '/pages/tables/smart-table',
-                    },
-                    {
-                      title: 'User Master Reports',
-                      link: '/pages/tables/smart-table',
+                      title: 'Financial Year',
+                      link: '/pages/settings/transaction/financial-year',
                     },
                   ],
-                },
-                {
-                  title: 'DSC Registration',
-                  link: '/pages/tables/smart-table',
                 },
               ],
             },

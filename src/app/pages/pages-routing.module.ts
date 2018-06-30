@@ -35,7 +35,10 @@ const routes: Routes = [{
   }, {
     path: 'miscellaneous',
     loadChildren: './miscellaneous/miscellaneous.module#MiscellaneousModule',
-  }, {
+  },{
+    path: 'settings',
+    loadChildren: './settings/settings.module#SettingsModule',
+  },{
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',
